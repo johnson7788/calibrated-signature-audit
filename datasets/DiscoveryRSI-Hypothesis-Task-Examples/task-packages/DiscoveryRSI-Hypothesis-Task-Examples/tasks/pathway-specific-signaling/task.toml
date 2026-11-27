@@ -1,0 +1,8 @@
+schema_version = "1.4"
+
+[task]
+name = "pathway-specific-directional-macrophage-fibroblast-signaling"
+
+[environment]
+image = "discoveryrsi-task-examples:local"
+workdir = "/workspace"

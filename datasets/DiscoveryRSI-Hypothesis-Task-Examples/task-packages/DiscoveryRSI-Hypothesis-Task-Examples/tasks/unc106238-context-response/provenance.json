@@ -1,0 +1,81 @@
+{
+  "candidate_id": "candidate-10c868bb758e34c115eeefcf",
+  "candidate_content_hash": "10c868bb758e34c115eeefcf4c0a9d406adffd7ad33cdd43c3d21ead507b1258",
+  "compile_job_id": "job-36ef2f487f8bbb183f434d83",
+  "source_release": "raft-final-v2-20261016",
+  "source_trial": "raft-final-v2-300-20261016",
+  "domain": "therapeutic_targets",
+  "generation": 3,
+  "parent_candidate_ids": [
+    "candidate-795608ea6a966b991c2abbcd"
+  ],
+  "source_file_sha256": {
+    "task.toml": "4182c8d2c5f6dd7bb32d237844d47c2374b009dc16d72f8a692148230dc050dd",
+    "validation.json": "138da3ce2545e46760e6b55a77f0f998ab7eebe3bb3f3c50bda6cc226399d894",
+    "instruction.md": "8fd2471312ff2250021da0759a6e189c2601876555a0bdf3b61988b6ebff9b9d",
+    "bindings.json": "c8826abdc9b749f4098ff2a72112de552288ed2197e8ae9e33b3d6f2c0cff4ac",
+    "key-references.json": "636b2c6292d7daf5a80088bd75c9716e7abe86473130ae42f84a45e4405947b6",
+    "tests/test.sh": "39234ef4b00f5df70791a19f3f652df285cd2a7defec0ad58505f5751280727f",
+    "validation/stale_result_fixture.sh": "0900e788648672aa199fb135e50129d08ae000c43b699c21a9792074d070f007",
+    "validation/overclaim_fixture.sh": "5dcf0368355dd5f20f2c31174a646b9d2228454ac603ba113b92b9c3c26ef635",
+    "validation/missing_ridge_fixture.sh": "75222086686ab58ca5cd0cd590ab8ff42bbd9eed156d610c4db16a516cf04057",
+    "validation/readiness.sh": "44851bffe716082a8f82bf22d4e1fe3cc087b5ceefca85dc0444e76d252e2ab4",
+    "validation/positive_fixture.sh": "f795ef3ab9643d445b61b6576546e9cc1e03ccaeb1cbb61867ceeb030ad90dd1",
+    "environment/Dockerfile": "fa8a4158a7e19c6a26cc080c0eeac07f3d316f0c8c48f76139392c6f8835fbb0"
+  },
+  "source_hypothesis_sha256": "7b07c633320b1391d32bde6f1ecc7bbc5c0301f4482cb163f9ba03a2613e973c",
+  "export_changes": [
+    "bindings.json",
+    "environment/Dockerfile"
+  ],
+  "export_policy": "Private source paths replaced with portable input references; private runtime image replaced with a public Python example image. Scientific wording and verifier logic retained.",
+  "source_task_readiness": "passed",
+  "source_reference_status": "not_run",
+  "scientific_result": "not_established",
+  "validation_scope": "Task readiness and rejection probes only; positive-answer acceptance and scientific validity unverified.",
+  "fixture_checks": {
+    "candidate_id": "candidate-10c868bb758e34c115eeefcf",
+    "probes": [
+      {
+        "fixture": "validation/positive_fixture.sh",
+        "expected_reward": "1",
+        "actual_reward": "1",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/overclaim_fixture.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/missing_ridge_fixture.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/stale_result_fixture.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "resources": {
+    "cpus": 2,
+    "gpus": 0,
+    "memory_mb": 8192
+  },
+  "full_scientific_execution_performed_for_release": false,
+  "public_docker_image_build_tested": false
+}

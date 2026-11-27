@@ -1,0 +1,19 @@
+{
+  "outputs": [
+    "/workspace/directionality_results.json"
+  ],
+  "cases": [
+    {
+      "name": "primary",
+      "env": {}
+    }
+  ],
+  "good_solutions": [
+    "validation/fixture_good.sh"
+  ],
+  "bad_solutions": [
+    "validation/fixture_bad_empty.sh",
+    "validation/fixture_bad_overclaim.sh"
+  ],
+  "imports": ["numpy", "pandas", "scipy", "statsmodels"]
+}

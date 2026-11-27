@@ -1,0 +1,157 @@
+[
+ {
+  "sample_id": "5647_32N_ACAGTG_L002_R1_001.fastq",
+  "patient": "32",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "5672_32T_TAGCTT_L002_R1_001.fastq",
+  "patient": "32",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "5673_41N_GGCTAC_L002_R1_001.fastq",
+  "patient": "41",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "5674_41T_GTGGCC_L002_R1_001.fastq",
+  "patient": "41",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "5675_42N_TGACCA_L002_R1_001.fastq",
+  "patient": "42",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "5676_42T_ATTCCT_L002_R1_001.fastq",
+  "patient": "42",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "7283_15N_GTGGCC_L007_R1_001-39.fastq",
+  "patient": "15",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "7284_15T_GTTTCG_L007_R1_001-39.fastq",
+  "patient": "15",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "7285_16N_CGTACG_L006_R1_001-39.fastq",
+  "patient": "16",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "7286_16T_GAGTGG_L006_R1_001-39.fastq",
+  "patient": "16",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "7287_8N_ACTGAT_L006_R1_001-39.fastq",
+  "patient": "8",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "7288_8T_ATTCCT_L006_R1_001-39.fastq",
+  "patient": "8",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "8700_50T_CGATGT_L001_R1_001.fastq",
+  "patient": "50",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "8701_50N_TGACCA_L001_R1_001.fastq",
+  "patient": "50",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "8703_51T_GCCAAT_L001_R1_001.fastq",
+  "patient": "51",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "8704_51N_CAGATC_L001_R1_001.fastq",
+  "patient": "51",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "8706_54T_AGTCAA_L003_R1_001.fastq",
+  "patient": "54",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "8707_54N_AGTTCC_L002_R1_001.fastq",
+  "patient": "54",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "8709_60T_CCGTCC_L002_R1_001.fastq",
+  "patient": "60",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "8710_60N_GTCCGC_L002_R1_001.fastq",
+  "patient": "60",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "9169_51_N_ATCACG_L999_R1_001.fastq",
+  "patient": "51",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "9170_51_S_CGATGT_L999_R1_001.fastq",
+  "patient": "51",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "9171_139_N_TTAGGC_L999_R1_001.fastq",
+  "patient": "139",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "9172_139_S_TGACCA_L999_R1_001.fastq",
+  "patient": "139",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "9173_178_N_ACAGTG_L999_R1_001.fastq",
+  "patient": "178",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "9174_178_S_GCCAAT_L999_R1_001.fastq",
+  "patient": "178",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "9175_245_N_CAGATC_L999_R1_001.fastq",
+  "patient": "245",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "9176_245_S_ACTTGA_L999_R1_001.fastq",
+  "patient": "245",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "9177_165_N_GATCAG_L999_R1_001.fastq",
+  "patient": "165",
+  "tissue": "adjacent"
+ },
+ {
+  "sample_id": "9178_165_S1_TAGCTT_L999_R1_001.fastq",
+  "patient": "165",
+  "tissue": "tumor"
+ },
+ {
+  "sample_id": "9179_165_S2_GGCTAC_L999_R1_001.fastq",
+  "patient": "165",
+  "tissue": "tumor"
+ }
+]

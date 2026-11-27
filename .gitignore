@@ -1,0 +1,15 @@
+.venv/
+.venv-*
+.discovery-rsi/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+*.token
+*.key
+
+# 数据：仅保留小型 processed 矩阵；原始/大文件不入库
+pilot/data/gse48684/
+pilot/data/*/raw/
+pilot/data/*/inputs/
+pilot/data/*/*.tar

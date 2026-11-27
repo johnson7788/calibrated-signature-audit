@@ -1,0 +1,70 @@
+MAGE-TAB Version	1.1
+Investigation Title	Sequencing of synovial tissue fibroblasts from Rheumatoid Arthritis patients that were co-cultured with inflammatory macrophages.
+
+Experimental Design	genotype design	cell type comparison design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO:0001748	EFO:0001745
+
+Experimental Factor Name	compound	dose	specimen
+Experimental Factor Type	compound	dose	specimen
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	CHEBI_24431
+
+Person Last Name	D
+Person First Name	Thomas Otto
+Person Mid Initials
+Person Email	thomasdan.otto@glasgow.ac.uk
+Person Phone
+Person Fax
+Person Affiliation	University of Glasgow
+Person Address	120 University Place G12 8TA Glasgow
+Person Roles	submitter
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2019-07-01
+Public Release Date	2020-04-18
+
+PubMed ID
+Publication DOI
+Publication Author List
+Publication Title
+Publication Status
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	The role of synovial tissue fibroblasts and macrophages interactions in driving chronic inflammation and resolution of arthritis is unknown. In this project, we used bulk RNAseq to investigate the impact of different phenotypes of macrophages on activation of synovial fibroblasts.
+
+Protocol Name	P-MTAB-90161	P-MTAB-90162	P-MTAB-90160	P-MTAB-90155	P-MTAB-90157	P-MTAB-90156	P-MTAB-90159	P-MTAB-90158
+Protocol Type	high throughput sequence alignment protocol	normalization data transformation protocol	treatment protocol	sample collection protocol	nucleic acid library construction protocol	nucleic acid extraction protocol	treatment protocol	nucleic acid sequencing protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0004917	EFO_0003816	EFO_0003969	EFO_0005518	EFO_0004184	EFO_0002944	EFO_0003969	EFO_0004170
+Protocol Description	The reads were mapped with STAR (version 020201) with default parameter against the Human genome version GRCh38, release 91. The read count matrix was constructed with feature Counts (Version 1.6.4) using default parameters	All differential expression analysis was performed in R using the DESeq2 package	FLS co-cultured with macrophages pre-treated with LPS and MerTK inhibitor are named FLS + Mac (LPS+MerTK inhibitor)	To obtain macrophages, CD14pos monocytes isolated from healthy donors (n=6) were plated in a 24-well plate in 3 ml complete medium (RPMI with 10% FCS, Penicillin/Streptomycin 100/U/ml and L-Glutamine 2mM) containing M-CSF (PeproTech) at the concentration of 50 ng/ml  On day 3, macrophages were pre-treated with LPS (1 ng/ml) for 4h. For the last 2h, MerTK specific inhibitor, UNC106238 (Aobious) was added to a half of the wells at the concentration 250 uM. Cells were then washed with PBS and transwell inserts (0.4 um pore size) containing 3x105 Rheumatoid Arthritis FLS derived from 4 different patients (n=4) were added to the wells to generate a co-culture system. After 48h, FLS growing on the transwell inserts were moved into new 24 wells and lysed with RLT buffer with 1% beta-mercaptoethanol (Qiagen) and stored at -80oC till the RNA isolation step.  We have 6 separate experiments with FLS from 4 different RA patients and macrophages from 6 different healthy donors.  2 FLS samples were used twice to react with distinct macrophage donors.	cDNA synthesis and amplification were performed by using SMART-seq v4 Ultra Low Input RNA Kit for Sequencing (cat. no. 634890, Takara) starting with 10 ng of total RNA, following the manufacturers protocol. 10 ng of amplified cDNAs were sheared prior to preparing the final libraries using the Bioruptor® Pico system (Diagenode, 24 cycles of 30 sec on and 30 sec off)	RNA was isolated using RNEasy micro-kit (Qiagen). The samples containing FLS co-cultured with macrophages pre-stimulated with LPS are named FLS+Mac (LPS) while FLS co-cultured with macrophages pre-treated with LPS and MerTK inhibitor are named FLS + Mac (LPS+MerTK inhibitor).	The samples containing FLS co-cultured with macrophages pre-stimulated with LPS are named FLS+Mac (LPS).	Dual indexed Illumina sequencing libraries were prepared by SMARTer® ThruPLEX® DNA-seq 48D Kit (cat. no. R400406, Takara) following the kit protocol.  The pooled libraries were sequenced at Edinburgh Genomics (Edinburgh, UK) on a NovaSeq 6000 system using a read length of 100 bases in paired-end mode.
+Protocol Parameters
+Protocol Hardware								Illumina NovaSeq 6000
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-8316.sdrf.txt
+Comment [Submitted Name]	Sequencing of synovial tissue fibroblasts from Rheumatoid Arthritis patients that were co-cultured with inflammatory macrophages.
+Comment [TemplateType]	Human - High-throughput sequencing
+Comment [SecondaryAccession]	ERP117716
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR3580338-ERR3580349
+Comment [AEExperimentType]	RNA-seq of coding RNA
+Comment[ArrayExpressAccession]	E-MTAB-8316

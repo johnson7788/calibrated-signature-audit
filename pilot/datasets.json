@@ -1,0 +1,48 @@
+{
+  "datasets": {
+    "GSE50760": {
+      "omics": "transcriptomics",
+      "platform": "RNA-seq (FPKM)",
+      "n_samples": 54,
+      "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+      "metadata": "pilot/data/gse50760/design.json",
+      "value_type": "log",
+      "group": {"column": "condition", "a": "primary", "b": "normal", "paired_by": ["patient"]},
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50760",
+      "note": "结直肠癌 18 患者 × 3 部位（原发/正常/肝转移）"
+    },
+    "GSE95132": {
+      "omics": "transcriptomics",
+      "platform": "RNA-seq (read counts)",
+      "n_samples": 31,
+      "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+      "metadata": "pilot/data/gse95132/design.json",
+      "value_type": "counts",
+      "group": {"column": "tissue", "a": "tumor", "b": "adjacent", "paired_by": ["patient"]},
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95132",
+      "note": "结直肠癌 12 患者配对肿瘤/癌旁（独立队列）"
+    },
+    "GSE110224": {
+      "omics": "transcriptomics",
+      "platform": "microarray (GPL570)",
+      "n_samples": 34,
+      "matrix": "pilot/data/gse110224/matrix.tsv.gz",
+      "metadata": "pilot/data/gse110224/design.json",
+      "value_type": "log",
+      "group": {"column": "condition", "a": "cancer", "b": "normal", "paired_by": ["patient"]},
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110224",
+      "note": "结直肠癌 17 对配对（独立队列，芯片）"
+    },
+    "GSE48684": {
+      "omics": "methylation",
+      "platform": "Illumina 450K (GPL13534)",
+      "n_samples": 147,
+      "matrix": "pilot/data/gse48684/methylation.tsv.gz",
+      "metadata": "pilot/data/gse48684/design.json",
+      "value_type": "log",
+      "group": {"column": "condition", "a": "crc", "b": "adjacent_normal"},
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48684",
+      "note": "结直肠癌/腺瘤 450K 甲基化（跨组学案例）"
+    }
+  }
+}

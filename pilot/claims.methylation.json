@@ -1,0 +1,12 @@
+{
+  "claims": [
+    {"id": "meth-crc-vs-adj", "name": "甲基化：CRC vs 癌旁正常（非配对扫描）", "type": "scan",
+     "dataset": {"matrix": "pilot/data/gse48684/methylation.tsv.gz", "metadata": "pilot/data/gse48684/design.json", "value_type": "log"},
+     "group": {"column": "condition", "a": "crc", "b": "adjacent_normal"},
+     "alpha": 0.05, "min_effect": 0.1},
+    {"id": "meth-adenoma-vs-normal", "name": "甲基化：腺瘤 vs 健康正常（非配对扫描）", "type": "scan",
+     "dataset": {"matrix": "pilot/data/gse48684/methylation.tsv.gz", "metadata": "pilot/data/gse48684/design.json", "value_type": "log"},
+     "group": {"column": "condition", "a": "adenoma", "b": "healthy_normal"},
+     "alpha": 0.05, "min_effect": 0.1}
+  ]
+}

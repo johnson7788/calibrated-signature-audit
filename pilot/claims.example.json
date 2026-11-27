@@ -1,0 +1,48 @@
+{
+  "claims": [
+    {
+      "id": "demo-scan",
+      "name": "E-MTAB-8316: UNC106238 vs none 全特征扫描（配对设计）",
+      "type": "scan",
+      "dataset": {
+        "matrix": "closed_loop/data/prepared/E-MTAB-8316.counts.tsv.gz",
+        "metadata": "closed_loop/data/prepared/E-MTAB-8316.design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "condition",
+        "a": "UNC106238",
+        "b": "none",
+        "paired_by": ["donor_id", "specimen"]
+      },
+      "alpha": 0.05,
+      "min_effect": 1.0
+    },
+    {
+      "id": "demo-sig-neg",
+      "name": "负向对照：随机 50 基因签名（预期 not_reproduced/fragile）",
+      "type": "signature",
+      "dataset": {
+        "matrix": "closed_loop/data/prepared/E-MTAB-8316.counts.tsv.gz",
+        "metadata": "closed_loop/data/prepared/E-MTAB-8316.design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "condition",
+        "a": "UNC106238",
+        "b": "none",
+        "paired_by": ["donor_id", "specimen"]
+      },
+      "signature": {
+        "features_file": "pilot/demo_signature_negative_control.txt"
+      },
+      "alpha": 0.05,
+      "min_effect": 0.2,
+      "claimed_direction": "any",
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+[
+ {
+  "sample_id": "GSM2982932",
+  "patient": "1",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982933",
+  "patient": "1",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982934",
+  "patient": "2",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982935",
+  "patient": "2",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982936",
+  "patient": "3",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982937",
+  "patient": "3",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982938",
+  "patient": "4",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982939",
+  "patient": "4",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982940",
+  "patient": "5",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982941",
+  "patient": "5",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982942",
+  "patient": "6",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982943",
+  "patient": "6",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982944",
+  "patient": "7",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982945",
+  "patient": "7",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982946",
+  "patient": "8",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982947",
+  "patient": "8",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982948",
+  "patient": "9",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982949",
+  "patient": "9",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982950",
+  "patient": "10",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982951",
+  "patient": "10",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982952",
+  "patient": "11",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982953",
+  "patient": "11",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982954",
+  "patient": "12",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982955",
+  "patient": "12",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982956",
+  "patient": "13",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982957",
+  "patient": "13",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982958",
+  "patient": "14",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982959",
+  "patient": "14",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982960",
+  "patient": "15",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982961",
+  "patient": "15",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982962",
+  "patient": "16",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982963",
+  "patient": "16",
+  "condition": "cancer"
+ },
+ {
+  "sample_id": "GSM2982964",
+  "patient": "17",
+  "condition": "normal"
+ },
+ {
+  "sample_id": "GSM2982965",
+  "patient": "17",
+  "condition": "cancer"
+ }
+]

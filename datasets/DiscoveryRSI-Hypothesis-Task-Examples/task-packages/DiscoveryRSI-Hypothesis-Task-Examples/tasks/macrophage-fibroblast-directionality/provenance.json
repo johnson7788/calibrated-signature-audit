@@ -1,0 +1,73 @@
+{
+  "candidate_id": "candidate-1f0062b3436d3554b6774bbc",
+  "candidate_content_hash": "1f0062b3436d3554b6774bbcce64212e692b51f5a9fd32a41b12239c663a8327",
+  "compile_job_id": "job-eaabe96dd13480252c738e65",
+  "source_release": "raft-final-v2-20261016",
+  "source_trial": "raft-final-v2-300-20261016",
+  "domain": "disease_mechanisms",
+  "generation": 2,
+  "parent_candidate_ids": [
+    "candidate-910cf9aace470313228fda44"
+  ],
+  "source_file_sha256": {
+    "task.toml": "72bdaa7555b1b6fe28c84ede1a9609750caa455f7eb7f9f815f97b1b93bc3d13",
+    "validation.json": "03fbde51d3f00528b78070f2ab2bb946fc8dc9141bd77fe6e6aa7ebbab052c1c",
+    "instruction.md": "32a2553dcd34f9034c919a135c3ef1ae31ea17aac4ef1173a9e2a697346ff432",
+    "bindings.json": "a764c6aff85b160b9886327f52f6c9aa10cb08f8ff7e164e1ac973cceb74397a",
+    "key-references.json": "0faf1d9ae688adf5a0ca3eaf5c3a54696ac5dbc788e8a9d1a6d0ddf94b703f5c",
+    "tests/test.sh": "bf6a00bb79c793b7c31051f12b5a770154f477e5a1d9eb6e932f5ef02a1ecbb5",
+    "validation/fixture_bad_overclaim.sh": "5ca67a703364cb0e4718fe13a5ed207219636262cc2ac0b04e69cbdaf5ef7171",
+    "validation/fixture_good.sh": "abd1347eb4396a7fb9b2e0b21c2194a6b0af4a42ce0b0e09d42e698e5d0d28ae",
+    "validation/readiness.sh": "c5373194a3850ef29861ff61d6e9389eb9d4f934c4d30244177c409525dee30a",
+    "validation/fixture_bad_empty.sh": "9381b8656c8e96530bd9226e1c14d7cfc047168e4efdfb8fb4b66abdd1add421",
+    "environment/Dockerfile": "fa8a4158a7e19c6a26cc080c0eeac07f3d316f0c8c48f76139392c6f8835fbb0"
+  },
+  "source_hypothesis_sha256": "99a1a255b0b0f9772c86515a69160cf21afeb3d540ffc62f37baccba88c8ba94",
+  "export_changes": [
+    "task.toml",
+    "bindings.json",
+    "environment/Dockerfile"
+  ],
+  "export_policy": "Private source paths replaced with portable input references; private runtime image replaced with a public Python example image. Scientific wording and verifier logic retained.",
+  "source_task_readiness": "passed",
+  "source_reference_status": "not_run",
+  "scientific_result": "not_established",
+  "validation_scope": "Task readiness and rejection probes only; positive-answer acceptance and scientific validity unverified.",
+  "fixture_checks": {
+    "candidate_id": "candidate-1f0062b3436d3554b6774bbc",
+    "probes": [
+      {
+        "fixture": "validation/fixture_good.sh",
+        "expected_reward": "1",
+        "actual_reward": "1",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/fixture_bad_empty.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/fixture_bad_overclaim.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "resources": {
+    "cpus": 2,
+    "gpus": 0,
+    "memory_mb": 8192
+  },
+  "full_scientific_execution_performed_for_release": false,
+  "public_docker_image_build_tested": false
+}

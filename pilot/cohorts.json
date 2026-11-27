@@ -1,0 +1,25 @@
+{
+  "cohorts": [
+    {
+      "name": "GSE50760",
+      "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+      "metadata": "pilot/data/gse50760/design.json",
+      "value_type": "log",
+      "group": {"column": "condition", "a": "primary", "b": "normal", "paired_by": ["patient"]}
+    },
+    {
+      "name": "GSE95132",
+      "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+      "metadata": "pilot/data/gse95132/design.json",
+      "value_type": "counts",
+      "group": {"column": "tissue", "a": "tumor", "b": "adjacent", "paired_by": ["patient"]}
+    },
+    {
+      "name": "GSE110224",
+      "matrix": "pilot/data/gse110224/matrix.tsv.gz",
+      "metadata": "pilot/data/gse110224/design.json",
+      "value_type": "log",
+      "group": {"column": "condition", "a": "cancer", "b": "normal", "paired_by": ["patient"]}
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "source": "inputs/E-MTAB-8873.counts.tsv.gz",
+    "target": "/data/prepared/E-MTAB-8873.counts.tsv.gz",
+    "sha256": "d218d3c46b652d533673c9ffc7876585bc51a39371f036e92d3ce568f28a4c0f"
+  },
+  {
+    "source": "inputs/E-MTAB-8873.design.json",
+    "target": "/data/prepared/E-MTAB-8873.design.json",
+    "sha256": "fd2ae05bd0e31a8ba72454b97e22a48f5e53c179370e5f4b5343f5382b217ae4"
+  }
+]

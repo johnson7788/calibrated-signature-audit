@@ -1,0 +1,88 @@
+{
+  "claims": [
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "min_effect": 0.5,
+      "claimed_direction": "a_lt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_down.txt"
+      },
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "splitdown-a0.01",
+      "name": "下调签名 alpha=0.01",
+      "alpha": 0.01
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "min_effect": 0.5,
+      "claimed_direction": "a_lt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_down.txt"
+      },
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "splitdown-a0.05",
+      "name": "下调签名 alpha=0.05",
+      "alpha": 0.05
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "min_effect": 0.5,
+      "claimed_direction": "a_lt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_down.txt"
+      },
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "splitdown-a0.1",
+      "name": "下调签名 alpha=0.1",
+      "alpha": 0.1
+    }
+  ]
+}

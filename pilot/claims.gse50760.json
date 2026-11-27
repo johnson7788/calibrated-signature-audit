@@ -1,0 +1,74 @@
+{
+  "claims": [
+    {
+      "id": "gse50760-scan",
+      "name": "GSE50760: 原发肿瘤 vs 正常（配对扫描）",
+      "type": "scan",
+      "dataset": {
+        "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+        "metadata": "pilot/data/gse50760/design.json",
+        "value_type": "log"
+      },
+      "group": {
+        "column": "condition",
+        "a": "primary",
+        "b": "normal",
+        "paired_by": ["patient"]
+      },
+      "alpha": 0.05,
+      "min_effect": 1.0
+    },
+    {
+      "id": "gse50760-up",
+      "name": "论文声称：原发肿瘤上调 signature（Atlas top-100 up）",
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+        "metadata": "pilot/data/gse50760/design.json",
+        "value_type": "log"
+      },
+      "group": {
+        "column": "condition",
+        "a": "primary",
+        "b": "normal",
+        "paired_by": ["patient"]
+      },
+      "signature": {
+        "features_file": "pilot/data/gse50760/signature_up_top100.txt"
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "claimed_direction": "a_gt_b",
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      }
+    },
+    {
+      "id": "gse50760-down",
+      "name": "论文声称：原发肿瘤下调 signature（Atlas top-100 down）",
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+        "metadata": "pilot/data/gse50760/design.json",
+        "value_type": "log"
+      },
+      "group": {
+        "column": "condition",
+        "a": "primary",
+        "b": "normal",
+        "paired_by": ["patient"]
+      },
+      "signature": {
+        "features_file": "pilot/data/gse50760/signature_down_top100.txt"
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "claimed_direction": "a_lt_b",
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      }
+    }
+  ]
+}

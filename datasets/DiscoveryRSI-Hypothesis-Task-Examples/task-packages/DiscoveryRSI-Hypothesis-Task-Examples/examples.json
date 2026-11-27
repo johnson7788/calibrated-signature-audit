@@ -1,0 +1,23 @@
+[
+  {
+    "id": "unc106238-context-response",
+    "candidate_id": "candidate-10c868bb758e34c115eeefcf",
+    "domain": "therapeutic_targets",
+    "title": "Context-dependent transcript response to UNC106238 in macrophage-fibroblast coculture: an identifiable, composition-robust contrast",
+    "package_path": "tasks/unc106238-context-response"
+  },
+  {
+    "id": "macrophage-fibroblast-directionality",
+    "candidate_id": "candidate-1f0062b3436d3554b6774bbc",
+    "domain": "disease_mechanisms",
+    "title": "Directional macrophage-fibroblast signaling: a feed-forward circuit hypothesis with a concrete estimand",
+    "package_path": "tasks/macrophage-fibroblast-directionality"
+  },
+  {
+    "id": "pathway-specific-signaling",
+    "candidate_id": "candidate-f2de1b16b696078896ffb4ec",
+    "domain": "disease_mechanisms",
+    "title": "Pathway-specific directional macrophage–fibroblast signaling: resolving feed-forward versus nonspecific coculture",
+    "package_path": "tasks/pathway-specific-signaling"
+  }
+]

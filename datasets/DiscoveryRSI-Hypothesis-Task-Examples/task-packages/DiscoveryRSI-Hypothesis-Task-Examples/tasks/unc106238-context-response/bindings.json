@@ -1,0 +1,12 @@
+[
+  {
+    "source": "inputs/E-MTAB-8316.counts.tsv.gz",
+    "target": "/data/prepared/E-MTAB-8316.counts.tsv.gz/E-MTAB-8316.counts.tsv.gz",
+    "sha256": "9ceb4b7cf3d52d7f6e3800c827d491b174b646826fae9c6d1433c5d64b219645"
+  },
+  {
+    "source": "inputs/E-MTAB-8316.design.json",
+    "target": "/data/prepared/E-MTAB-8316.design.json/E-MTAB-8316.design.json",
+    "sha256": "ca011580853bbea30b4f68f21bb5b017721c3e47bfefee6e9083b44da04c4c81"
+  }
+]

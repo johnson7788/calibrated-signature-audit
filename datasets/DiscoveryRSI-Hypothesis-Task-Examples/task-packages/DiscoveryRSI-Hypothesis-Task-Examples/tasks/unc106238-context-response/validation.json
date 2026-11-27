@@ -1,0 +1,13 @@
+{
+  "outputs": ["/workspace/results.json"],
+  "imports": ["pandas", "numpy", "scipy", "sklearn"],
+  "cases": [
+    {"name": "primary", "env": {}}
+  ],
+  "good_solutions": ["validation/positive_fixture.sh"],
+  "bad_solutions": [
+    "validation/overclaim_fixture.sh",
+    "validation/missing_ridge_fixture.sh",
+    "validation/stale_result_fixture.sh"
+  ]
+}

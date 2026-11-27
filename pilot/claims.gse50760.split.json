@@ -1,0 +1,84 @@
+{
+  "claims": [
+    {
+      "type": "scan",
+      "dataset": {
+        "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+        "metadata": "pilot/data/gse50760/design_test.json",
+        "value_type": "log"
+      },
+      "group": {
+        "column": "condition",
+        "a": "primary",
+        "b": "normal",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 1.0,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "split-scan",
+      "name": "半样本验证：测试集原发 vs 正常（扫描）"
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+        "metadata": "pilot/data/gse50760/design_test.json",
+        "value_type": "log"
+      },
+      "group": {
+        "column": "condition",
+        "a": "primary",
+        "b": "normal",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "split-up",
+      "name": "半样本验证：训练集上调 signature 在测试集复现",
+      "claimed_direction": "a_gt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_up.txt"
+      }
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse50760/GSE50760_log2fpkm.tsv.gz",
+        "metadata": "pilot/data/gse50760/design_test.json",
+        "value_type": "log"
+      },
+      "group": {
+        "column": "condition",
+        "a": "primary",
+        "b": "normal",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "split-down",
+      "name": "半样本验证：训练集下调 signature 在测试集复现",
+      "claimed_direction": "a_lt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_down.txt"
+      }
+    }
+  ]
+}

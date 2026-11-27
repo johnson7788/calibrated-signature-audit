@@ -1,0 +1,40 @@
+# 真实签名的置换校准结果
+
+| 来源 | 标准 | 方向 | 目标 | 效应 | p_perm |
+|---|---|---|---|---|---|
+| GSE50760 | effect | up | GSE50760 | +1.976 | 0.0005 |
+| GSE50760 | effect | up | GSE95132 | +1.220 | 0.0005 |
+| GSE50760 | effect | up | GSE110224 | +1.331 | 0.0005 |
+| GSE50760 | effect | down | GSE50760 | -2.765 | 0.0005 |
+| GSE50760 | effect | down | GSE95132 | -1.375 | 0.0005 |
+| GSE50760 | effect | down | GSE110224 | -1.766 | 0.0005 |
+| GSE50760 | tstat | up | GSE50760 | +0.924 | 0.0005 |
+| GSE50760 | tstat | up | GSE95132 | +0.831 | 0.0005 |
+| GSE50760 | tstat | up | GSE110224 | +0.636 | 0.0005 |
+| GSE50760 | tstat | down | GSE50760 | -1.168 | 0.0005 |
+| GSE50760 | tstat | down | GSE95132 | -1.117 | 0.0005 |
+| GSE50760 | tstat | down | GSE110224 | -0.749 | 0.0005 |
+| GSE95132 | effect | up | GSE50760 | +1.227 | 0.0005 |
+| GSE95132 | effect | up | GSE95132 | +2.112 | 0.0005 |
+| GSE95132 | effect | up | GSE110224 | +1.082 | 0.0005 |
+| GSE95132 | effect | down | GSE50760 | -1.210 | 0.0005 |
+| GSE95132 | effect | down | GSE95132 | -2.616 | 0.0005 |
+| GSE95132 | effect | down | GSE110224 | -1.116 | 0.0005 |
+| GSE95132 | tstat | up | GSE50760 | +0.658 | 0.0005 |
+| GSE95132 | tstat | up | GSE95132 | +0.996 | 0.0005 |
+| GSE95132 | tstat | up | GSE110224 | +0.526 | 0.0005 |
+| GSE95132 | tstat | down | GSE50760 | -0.528 | 0.0005 |
+| GSE95132 | tstat | down | GSE95132 | -1.345 | 0.0005 |
+| GSE95132 | tstat | down | GSE110224 | -0.383 | 0.0005 |
+| GSE110224 | effect | up | GSE50760 | +1.253 | 0.0005 |
+| GSE110224 | effect | up | GSE95132 | +1.160 | 0.0005 |
+| GSE110224 | effect | up | GSE110224 | +1.970 | 0.0005 |
+| GSE110224 | effect | down | GSE50760 | -2.102 | 0.0005 |
+| GSE110224 | effect | down | GSE95132 | -1.449 | 0.0005 |
+| GSE110224 | effect | down | GSE110224 | -2.318 | 0.0005 |
+| GSE110224 | tstat | up | GSE50760 | +0.548 | 0.0005 |
+| GSE110224 | tstat | up | GSE95132 | +0.400 | 0.0005 |
+| GSE110224 | tstat | up | GSE110224 | +0.690 | 0.0005 |
+| GSE110224 | tstat | down | GSE50760 | -0.688 | 0.0005 |
+| GSE110224 | tstat | down | GSE95132 | -0.523 | 0.0005 |
+| GSE110224 | tstat | down | GSE110224 | -0.842 | 0.0005 |

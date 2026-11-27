@@ -1,0 +1,218 @@
+[
+ {
+  "sample_id": "AMC_13.1",
+  "patient": "13",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228193"
+ },
+ {
+  "sample_id": "AMC_17.1",
+  "patient": "17",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228194"
+ },
+ {
+  "sample_id": "AMC_18.1",
+  "patient": "18",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228195"
+ },
+ {
+  "sample_id": "AMC_19.1",
+  "patient": "19",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228196"
+ },
+ {
+  "sample_id": "AMC_20.1",
+  "patient": "20",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228197"
+ },
+ {
+  "sample_id": "AMC_21.1",
+  "patient": "21",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228198"
+ },
+ {
+  "sample_id": "AMC_22.1",
+  "patient": "22",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228199"
+ },
+ {
+  "sample_id": "AMC_23.1",
+  "patient": "23",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228200"
+ },
+ {
+  "sample_id": "AMC_24.1",
+  "patient": "24",
+  "site": "1",
+  "condition": "primary",
+  "tissue": "primary colorectal cancer",
+  "gsm": "GSM1228201"
+ },
+ {
+  "sample_id": "AMC_13.2",
+  "patient": "13",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228211"
+ },
+ {
+  "sample_id": "AMC_17.2",
+  "patient": "17",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228212"
+ },
+ {
+  "sample_id": "AMC_18.2",
+  "patient": "18",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228213"
+ },
+ {
+  "sample_id": "AMC_19.2",
+  "patient": "19",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228214"
+ },
+ {
+  "sample_id": "AMC_20.2",
+  "patient": "20",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228215"
+ },
+ {
+  "sample_id": "AMC_21.2",
+  "patient": "21",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228216"
+ },
+ {
+  "sample_id": "AMC_22.2",
+  "patient": "22",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228217"
+ },
+ {
+  "sample_id": "AMC_23.2",
+  "patient": "23",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228218"
+ },
+ {
+  "sample_id": "AMC_24.2",
+  "patient": "24",
+  "site": "2",
+  "condition": "normal",
+  "tissue": "normal-looking surrounding colonic epithelium",
+  "gsm": "GSM1228219"
+ },
+ {
+  "sample_id": "AMC_13.3",
+  "patient": "13",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228229"
+ },
+ {
+  "sample_id": "AMC_17.3",
+  "patient": "17",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228230"
+ },
+ {
+  "sample_id": "AMC_18.3",
+  "patient": "18",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228231"
+ },
+ {
+  "sample_id": "AMC_19.3",
+  "patient": "19",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228232"
+ },
+ {
+  "sample_id": "AMC_20.3",
+  "patient": "20",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228233"
+ },
+ {
+  "sample_id": "AMC_21.3",
+  "patient": "21",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228234"
+ },
+ {
+  "sample_id": "AMC_22.3",
+  "patient": "22",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228235"
+ },
+ {
+  "sample_id": "AMC_23.3",
+  "patient": "23",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228236"
+ },
+ {
+  "sample_id": "AMC_24.3",
+  "patient": "24",
+  "site": "3",
+  "condition": "metastasis",
+  "tissue": "metastatic colorectal cancer to the liver",
+  "gsm": "GSM1228237"
+ }
+]

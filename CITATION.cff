@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its audit protocol, please cite the preprint below."
+title: "Calibrating signature audits: nominal tests understate false-positive rates by up to five-fold"
+authors:
+  - family-names: Guo
+    given-names: Zhicai
+    affiliation: "Yifu Knowledge (Beijing) Technology Co., Ltd."
+    email: 363800649@qq.com
+type: software
+version: 0.1.0
+date-released: 2026-11-27
+license: MIT
+repository-code: "https://github.com/[your-account]/[repo-name]"
+abstract: >-
+  An open-source toolkit and protocol for auditing omics signature claims,
+  including a size-matched gene-set permutation calibration that restores
+  false-positive-rate control, a graded verdict taxonomy, a half-sample
+  protocol, and cross-cohort replication matrices.
+keywords:
+  - signature audit
+  - gene-set permutation
+  - reproducibility
+  - omics

@@ -1,0 +1,206 @@
+[
+  {
+    "sample_id": "MK3",
+    "donor_id": "SA049",
+    "condition": "none",
+    "cell_type": "monocyte",
+    "specimen": "1462",
+    "source_metadata": {
+      "ena_sample": "ERS3858260",
+      "biosd_sample": "SAMEA6057128",
+      "age": "68",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK4",
+    "donor_id": "SA049",
+    "condition": "UNC106238",
+    "cell_type": "monocyte",
+    "specimen": "1462",
+    "source_metadata": {
+      "ena_sample": "ERS3858261",
+      "biosd_sample": "SAMEA6057129",
+      "age": "68",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK7",
+    "donor_id": "SA049",
+    "condition": "none",
+    "cell_type": "monocyte",
+    "specimen": "1463",
+    "source_metadata": {
+      "ena_sample": "ERS3858262",
+      "biosd_sample": "SAMEA6057130",
+      "age": "68",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK8",
+    "donor_id": "SA049",
+    "condition": "UNC106238",
+    "cell_type": "monocyte",
+    "specimen": "1463",
+    "source_metadata": {
+      "ena_sample": "ERS3858263",
+      "biosd_sample": "SAMEA6057131",
+      "age": "68",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK11",
+    "donor_id": "SA114",
+    "condition": "none",
+    "cell_type": "monocyte",
+    "specimen": "1533",
+    "source_metadata": {
+      "ena_sample": "ERS3858264",
+      "biosd_sample": "SAMEA6057132",
+      "age": "66",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK12",
+    "donor_id": "SA114",
+    "condition": "UNC106238",
+    "cell_type": "monocyte",
+    "specimen": "1533",
+    "source_metadata": {
+      "ena_sample": "ERS3858265",
+      "biosd_sample": "SAMEA6057133",
+      "age": "66",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK15",
+    "donor_id": "SA114",
+    "condition": "none",
+    "cell_type": "monocyte",
+    "specimen": "1534",
+    "source_metadata": {
+      "ena_sample": "ERS3858266",
+      "biosd_sample": "SAMEA6057134",
+      "age": "66",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK16",
+    "donor_id": "SA114",
+    "condition": "UNC106238",
+    "cell_type": "monocyte",
+    "specimen": "1534",
+    "source_metadata": {
+      "ena_sample": "ERS3858267",
+      "biosd_sample": "SAMEA6057135",
+      "age": "66",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK19",
+    "donor_id": "SA051",
+    "condition": "none",
+    "cell_type": "monocyte",
+    "specimen": "1601",
+    "source_metadata": {
+      "ena_sample": "ERS3858268",
+      "biosd_sample": "SAMEA6057136",
+      "age": "42",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK20",
+    "donor_id": "SA051",
+    "condition": "UNC106238",
+    "cell_type": "monocyte",
+    "specimen": "1601",
+    "source_metadata": {
+      "ena_sample": "ERS3858269",
+      "biosd_sample": "SAMEA6057137",
+      "age": "42",
+      "sex": "female",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK23",
+    "donor_id": "SA104",
+    "condition": "none",
+    "cell_type": "monocyte",
+    "specimen": "1602",
+    "source_metadata": {
+      "ena_sample": "ERS3858270",
+      "biosd_sample": "SAMEA6057138",
+      "age": "60",
+      "sex": "male",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  },
+  {
+    "sample_id": "MK24",
+    "donor_id": "SA104",
+    "condition": "UNC106238",
+    "cell_type": "monocyte",
+    "specimen": "1602",
+    "source_metadata": {
+      "ena_sample": "ERS3858271",
+      "biosd_sample": "SAMEA6057139",
+      "age": "60",
+      "sex": "male",
+      "disease": "rheumatic disease",
+      "stimulus": "lipopolysaccharide; 1 nanogram per milliliter",
+      "organism_part": "synovial membrane",
+      "library_strategy": "RNA-Seq"
+    }
+  }
+]

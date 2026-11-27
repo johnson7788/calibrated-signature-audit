@@ -1,0 +1,11 @@
+{
+  "title": "Calibrating signature audits: nominal tests understate false-positive rates by up to five-fold",
+  "upload_type": "software",
+  "description": "Open-source audit engine for omics signature claims with gene-set permutation calibration, graded verdicts, half-sample protocol and cross-cohort replication matrices. Accompanies the preprint of the same title.",
+  "creators": [
+    {"name": "Guo, Zhicai", "affiliation": "Yifu Knowledge (Beijing) Technology Co., Ltd."}
+  ],
+  "license": "MIT",
+  "keywords": ["signature audit", "gene-set permutation", "reproducibility", "omics", "false-positive rate"],
+  "language": "eng"
+}

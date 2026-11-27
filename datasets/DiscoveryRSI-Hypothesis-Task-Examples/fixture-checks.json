@@ -1,0 +1,108 @@
+[
+  {
+    "candidate_id": "candidate-10c868bb758e34c115eeefcf",
+    "probes": [
+      {
+        "fixture": "validation/positive_fixture.sh",
+        "expected_reward": "1",
+        "actual_reward": "1",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/overclaim_fixture.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/missing_ridge_fixture.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/stale_result_fixture.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "candidate_id": "candidate-1f0062b3436d3554b6774bbc",
+    "probes": [
+      {
+        "fixture": "validation/fixture_good.sh",
+        "expected_reward": "1",
+        "actual_reward": "1",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/fixture_bad_empty.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/fixture_bad_overclaim.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  {
+    "candidate_id": "candidate-f2de1b16b696078896ffb4ec",
+    "probes": [
+      {
+        "fixture": "validation/good_fixture.sh",
+        "expected_reward": "1",
+        "actual_reward": "1",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/wrong_interpretation.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/empty_output.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      },
+      {
+        "fixture": "validation/unsupported_claim.sh",
+        "expected_reward": "0",
+        "actual_reward": "0",
+        "fixture_returncode": 0,
+        "verifier_returncode": 0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  }
+]

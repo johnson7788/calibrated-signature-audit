@@ -1,0 +1,33 @@
+{
+  "outputs": [
+    "/workspace/results.json",
+    "/workspace/analysis_summary.txt"
+  ],
+  "cases": [
+    {
+      "name": "primary",
+      "env": {}
+    }
+  ],
+  "good_solutions": [
+    "validation/good_fixture.sh"
+  ],
+  "bad_solutions": [
+    "validation/wrong_interpretation.sh",
+    "validation/empty_output.sh",
+    "validation/unsupported_claim.sh"
+  ],
+  "imports": [
+    "json",
+    "csv",
+    "gzip",
+    "math",
+    "os",
+    "sys"
+  ],
+  "timeouts": {
+    "reference": 3600,
+    "verifier": 600,
+    "probe": 600
+  }
+}

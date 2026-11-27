@@ -1,0 +1,140 @@
+{
+  "claims": [
+    {
+      "type": "scan",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 1.0,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "xstudy-scan",
+      "name": "跨队列：GSE95132 肿瘤 vs 癌旁（扫描）"
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "xstudy-up",
+      "name": "跨队列复现：GSE50760 Atlas 上调签名 → GSE95132",
+      "claimed_direction": "a_gt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/signature_up_top100.txt"
+      }
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "xstudy-down",
+      "name": "跨队列复现：GSE50760 Atlas 下调签名 → GSE95132",
+      "claimed_direction": "a_lt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/signature_down_top100.txt"
+      }
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "xstudy-splitup",
+      "name": "跨队列复现：GSE50760 训练集上调签名 → GSE95132",
+      "claimed_direction": "a_gt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_up.txt"
+      }
+    },
+    {
+      "type": "signature",
+      "dataset": {
+        "matrix": "pilot/data/gse95132/GSE95132_counts.tsv.gz",
+        "metadata": "pilot/data/gse95132/design.json",
+        "value_type": "counts"
+      },
+      "group": {
+        "column": "tissue",
+        "a": "tumor",
+        "b": "adjacent",
+        "paired_by": [
+          "patient"
+        ]
+      },
+      "alpha": 0.05,
+      "min_effect": 0.5,
+      "robustness": {
+        "covariates": [],
+        "min_stable_fraction": 0.8
+      },
+      "id": "xstudy-splitdown",
+      "name": "跨队列复现：GSE50760 训练集下调签名 → GSE95132",
+      "claimed_direction": "a_lt_b",
+      "signature": {
+        "features_file": "pilot/data/gse50760/sig_split_down.txt"
+      }
+    }
+  ]
+}
