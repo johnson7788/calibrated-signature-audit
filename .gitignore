@@ -16,3 +16,7 @@ pilot/data/*/*.tar
 
 # 本地打包产物（上传用，不入库）
 dist/
+
+# macOS 垃圾文件与本地遗留目录
+.DS_Store
+DSH改沙箱/
