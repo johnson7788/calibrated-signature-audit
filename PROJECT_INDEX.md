@@ -23,6 +23,8 @@
 | 名词看不懂 | [pilot/GLOSSARY.md](pilot/GLOSSARY.md) |
 | 了解闭环系统 | [closed_loop/REPORT.md](closed_loop/REPORT.md) |
 | 了解研究计划 | [研究计划.md](研究计划.md)、[可执行闭环-研究方案.md](可执行闭环-研究方案.md) |
+| 看论文手稿 | [paper/manuscript.md](paper/manuscript.md)（HTML 版：[manuscript.html](paper/manuscript.html)） |
+| 准备投稿 | [paper/SUBMISSION_CHECKLIST.md](paper/SUBMISSION_CHECKLIST.md) |
 
 ## 一键命令
 
@@ -51,6 +53,11 @@ bash pilot/run_all.sh                       # 重跑全部结果 + 全量测试�
 │   ├── data/               # GSE50760 / GSE95132 / GSE110224 / GSE48684
 │   ├── results/            # 7 份报告
 │   └── SOP.md / README.md / OPEN_DATA.md / GLOSSARY.md
+├── paper/                  # 论文（校准主线，初稿完成）
+│   ├── manuscript.md / .html
+│   ├── figures/            # 4 张 300 dpi 图
+│   ├── exp_*.py            # 支撑实验（FPR/校准/真实签名）
+│   └── SUBMISSION_CHECKLIST.md
 ├── datasets/               # 任务包与模型卡（DiscoveryRSI 生态）
 └── tests/                  # 26 个测试
 ```
@@ -63,7 +70,7 @@ bash pilot/run_all.sh                       # 重跑全部结果 + 全量测试�
 | B | 多队列复现矩阵（3 队列 × 3 规模 + 交叉签名矩阵） | ✅ |
 | C | 跨组学验证（甲基化 450K） | ✅（探针级） |
 | D | 产品化（CLI/SOP/注册表/一键复现/测试） | ✅ |
-| E | 成文（内部报告或论文初稿） | ⏳ 待定 |
+| E | 成文：论文初稿（校准主线） | ✅ 初稿完成，待提交预印本 |
 
 ## 关键结论（截至 2026-11-27）
 
