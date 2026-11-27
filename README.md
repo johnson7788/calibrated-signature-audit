@@ -1,5 +1,7 @@
 # calibrated-signature-audit
 
+**English** | [简体中文](README.zh.md)
+
 **Auditing omics signature claims — with a calibrated null.**
 
 This repository accompanies the preprint:
