@@ -62,6 +62,15 @@ bash pilot/run_all.sh                       # 重跑全部结果 + 全量测试�
 └── tests/                  # 26 个测试
 ```
 
+
+## 线上地址
+
+| 用途 | 链接 |
+|---|---|
+| 代码仓库 | https://github.com/johnson7788/calibrated-signature-audit |
+| 数据与 PDF | https://huggingface.co/datasets/johnson/calibrated-signature-audit |
+| 预印本 | bioRxiv（待提交） |
+
 ## 当前状态
 
 | 阶段 | 内容 | 状态 |
