@@ -13,3 +13,6 @@ pilot/data/gse48684/
 pilot/data/*/raw/
 pilot/data/*/inputs/
 pilot/data/*/*.tar
+
+# 本地打包产物（上传用，不入库）
+dist/
