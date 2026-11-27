@@ -10,7 +10,7 @@ type: software
 version: 0.1.0
 date-released: 2026-11-27
 license: MIT
-repository-code: "https://github.com/[your-account]/[repo-name]"
+repository-code: "https://github.com/johnson7788/calibrated-signature-audit"
 abstract: >-
   An open-source toolkit and protocol for auditing omics signature claims,
   including a size-matched gene-set permutation calibration that restores

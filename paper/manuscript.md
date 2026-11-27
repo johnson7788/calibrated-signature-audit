@@ -130,9 +130,9 @@ First, the calibration study covers three cohorts from one disease and one geogr
 
 ## 6. Availability
 
-**Code.** The audit engine, permutation calibration, half-sample protocol, replication matrices and data-preparation utilities, together with a standard operating procedure and a one-command reproduction script, are available at [repository URL]. A permanent archive will be deposited at Zenodo [DOI].
+**Code.** The audit engine, permutation calibration, half-sample protocol, replication matrices and data-preparation utilities, together with a standard operating procedure and a one-command reproduction script, are available at <https://github.com/johnson7788/calibrated-signature-audit>. A permanent archive will be deposited at Zenodo [DOI].
 
-**Data.** GSE50760, GSE95132 and GSE110224 are public NCBI GEO datasets; the GSE50760 differential-expression export was obtained from Expression Atlas. Processed matrices and claim specifications are included in the repository.
+**Data.** GSE50760, GSE95132 and GSE110224 are public NCBI GEO datasets; the GSE50760 differential-expression export was obtained from Expression Atlas. Processed matrices, claim specifications, figures and the manuscript PDF are archived at <https://huggingface.co/datasets/johnson7788/calibrated-signature-audit>.
 
 **Ethics.** This study used only public, de-identified datasets; no new human-subjects data were collected and no ethics approval was required.
 
