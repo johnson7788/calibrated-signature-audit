@@ -9,7 +9,7 @@ cd "$(dirname "$0")/.."
 
 : "${HF_TOKEN:?请先 export HF_TOKEN（写权限 token）}"
 PROXY="${PROXY:-http://127.0.0.1:7890}"
-HF_USER="${HF_USER:-johnson7788}"
+HF_USER="${HF_USER:-johnson}"
 REPO="${REPO:-calibrated-signature-audit}"
 SRC="dist/hf_upload"
 

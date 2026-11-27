@@ -5,7 +5,7 @@
 This repository accompanies the preprint:
 
 > Guo Z. *Calibrating signature audits: nominal tests understate false-positive rates by up to five-fold.*
-> Preprint: bioRxiv (submitted) · PDF: [paper/manuscript.pdf](paper/manuscript.pdf) · Data: [Hugging Face](https://huggingface.co/datasets/johnson7788/calibrated-signature-audit)
+> Preprint: bioRxiv (submitted) · PDF: [paper/manuscript.pdf](paper/manuscript.pdf) · Data: [Hugging Face](https://huggingface.co/datasets/johnson/calibrated-signature-audit)
 
 **Key finding.** At a nominal 5% level, ordinary signature audits declared **12.4%** and **24.6%** of random 100-gene signatures "robust" in two colorectal cancer cohorts (2.5–4.9× inflation). A size-matched **gene-set permutation calibration** restores false-positive rates to **4.0–6.4%**, while all 36 real signatures remain significant.
 
@@ -69,7 +69,7 @@ MPLCONFIGDIR=/tmp/mpl .venv/bin/python paper/make_figures.py
 ## Data
 
 Processed matrices, claim specifications, figures and the PDF are archived at
-**Hugging Face: https://huggingface.co/datasets/johnson7788/calibrated-signature-audit**
+**Hugging Face: https://huggingface.co/datasets/johnson/calibrated-signature-audit**
 
 Original data: NCBI GEO [GSE50760](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50760),
 [GSE95132](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95132),
